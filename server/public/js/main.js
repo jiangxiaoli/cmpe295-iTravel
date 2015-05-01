@@ -28,7 +28,7 @@ angular.module('iTravelApp')
         })
         .when("/users/:id", {
             templateUrl: "templates/user/profile.html",
-            controller: "UserShowCtrl"
+            //controller: "UserShowCtrl"
         })
 
         //venue selection pages
@@ -40,7 +40,7 @@ angular.module('iTravelApp')
         //activity scheduler page
         .when("/activityScheduler", {
             templateUrl: "templates/activityScheduler/activityScheduler.html",
-            controller: "ActivitySchedulerCtrl"
+            //controller: "ActivitySchedulerCtrl"
         })
 
         //venue page
@@ -52,7 +52,7 @@ angular.module('iTravelApp')
         //plan page
         .when("/plans/:id", {
             templateUrl: "templates/plans/planDetail.html",
-            controller: "PlansShowCtrl"
+            //controller: "PlansShowCtrl"
         })
 
         //footer url pages
